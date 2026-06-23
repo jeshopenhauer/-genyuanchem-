@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional CV - China Job Market</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .contact-info {
+            background: rgba(0,0,0,0.1);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            font-size: 0.95em;
+        }
+        
+        .contact-info span {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .section {
+            margin-bottom: 35px;
+        }
+        
+        .section-title {
+            font-size: 1.5em;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+        
+        .job-entry, .education-entry {
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .job-entry:last-child, .education-entry:last-child {
+            border-bottom: none;
+        }
+        
+        .job-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 5px;
+        }
+        
+        .company {
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 3px;
+        }
+        
+        .date {
+            color: #888;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+        
+        .description {
+            color: #555;
+            margin-bottom: 8px;
+            line-height: 1.7;
+        }
+        
+        .skills-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .skill-tag {
+            background: #667eea;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        
+        .language-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .language-name {
+            font-weight: 600;
+        }
+        
+        .language-level {
+            color: #667eea;
+        }
+        
+        .summary {
+            background: #f8f9fa;
+            padding: 20px;
+            border-left: 4px solid #667eea;
+            margin-bottom: 30px;
+            line-height: 1.8;
+            color: #555;
+        }
+        
+        .footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #888;
+            font-size: 0.9em;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 600px) {
+            .header h1 {
+                font-size: 1.8em;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Your Name</h1>
+            <p>Software Engineer / Tech Professional</p>
+            <div class="contact-info">
+                <span>📧 your.email@example.com</span>
+                <span>📱 +34 XXX XXX XXX</span>
+                <span>📍 Spain 🇪🇸</span>
+                <span>💼 LinkedIn Profile</span>
+            </div>
+        </div>
+        
+        <div class="content">
+            <!-- Professional Summary -->
+            <div class="summary">
+                <strong>Professional Summary:</strong><br>
+                Dedicated and innovative technology professional with proven expertise in software development and technical solutions. 
+                Seeking exciting opportunities in China's dynamic tech industry. Strong problem-solving skills, adaptability, and 
+                commitment to continuous learning. Fluent in English and eager to contribute to cutting-edge projects in Asia.
+            </div>
+            
+            <!-- Experience Section -->
+            <div class="section">
+                <div class="section-title">💼 Professional Experience</div>
+                
+                <div class="job-entry">
+                    <div class="job-title">Senior Software Developer</div>
+                    <div class="company">Tech Company, Spain</div>
+                    <div class="date">2021 - Present</div>
+                    <div class="description">
+                        • Led development team on critical projects using modern technologies<br>
+                        • Designed and implemented scalable solutions serving 100K+ users<br>
+                        • Mentored junior developers and improved code quality by 40%<br>
+                        • Collaborated with international teams on cross-border projects
+                    </div>
+                </div>
+                
+                <div class="job-entry">
+                    <div class="job-title">Full Stack Developer</div>
+                    <div class="company">Digital Solutions Inc., Spain</div>
+                    <div class="date">2019 - 2021</div>
+                    <div class="description">
+                        • Developed and maintained web applications using React and Node.js<br>
+                        • Implemented REST APIs and database optimization<br>
+                        • Improved application performance by 50%<br>
+                        • Worked in Agile environments with 2-week sprint cycles
+                    </div>
+                </div>
+                
+                <div class="job-entry">
+                    <div class="job-title">Junior Developer</div>
+                    <div class="company">StartUp Solutions, Spain</div>
+                    <div class="date">2017 - 2019</div>
+                    <div class="description">
+                        • Built responsive web interfaces using modern frameworks<br>
+                        • Collaborated with UX/UI team to implement designs<br>
+                        • Participated in code reviews and team knowledge sharing<br>
+                        • Fixed bugs and implemented features for production environment
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Technical Skills -->
+            <div class="section">
+                <div class="section-title">🛠️ Technical Skills</div>
+                <div class="skills-list">
+                    <div class="skill-tag">JavaScript</div>
+                    <div class="skill-tag">Python</div>
+                    <div class="skill-tag">React</div>
+                    <div class="skill-tag">Node.js</div>
+                    <div class="skill-tag">SQL</div>
+                    <div class="skill-tag">MongoDB</div>
+                    <div class="skill-tag">AWS</div>
+                    <div class="skill-tag">Docker</div>
+                    <div class="skill-tag">Git</div>
+                    <div class="skill-tag">REST APIs</div>
+                    <div class="skill-tag">Agile/Scrum</div>
+                    <div class="skill-tag">CI/CD</div>
+                </div>
+            </div>
+            
+            <!-- Education -->
+            <div class="section">
+                <div class="section-title">🎓 Education</div>
+                
+                <div class="education-entry">
+                    <div class="job-title">Bachelor's Degree in Computer Science</div>
+                    <div class="company">University Name, Spain</div>
+                    <div class="date">2013 - 2017</div>
+                </div>
+                
+                <div class="education-entry">
+                    <div class="job-title">Professional Certification - Full Stack Web Development</div>
+                    <div class="company">Online Academy</div>
+                    <div class="date">2018</div>
+                </div>
+            </div>
+            
+            <!-- Languages -->
+            <div class="section">
+                <div class="section-title">🌍 Languages</div>
+                
+                <div class="language-item">
+                    <span class="language-name">English</span>
+                    <span class="language-level">Fluent (C1)</span>
+                </div>
+                <div class="language-item">
+                    <span class="language-name">Spanish</span>
+                    <span class="language-level">Native</span>
+                </div>
+                <div class="language-item">
+                    <span class="language-name">Mandarin Chinese</span>
+                    <span class="language-level">Beginner (A1) - Currently Learning</span>
+                </div>
+            </div>
+            
+            <!-- Certifications -->
+            <div class="section">
+                <div class="section-title">📜 Certifications</div>
+                <div class="description">
+                    • AWS Certified Solutions Architect - Associate (2021)<br>
+                    • Google Cloud Professional Data Engineer (2020)<br>
+                    • Scrum Master Certification (PSM I) (2019)
+                </div>
+            </div>
+            
+            <!-- Why China -->
+            <div class="section">
+                <div class="section-title">🚀 Why China?</div>
+                <div class="description">
+                    Passionate about working in China's innovative tech ecosystem. Attracted by the rapid technological advancement, 
+                    diverse opportunities in AI, e-commerce, and fintech sectors. Committed to cultural adaptation and open to 
+                    relocating for the right opportunity. Eager to contribute international expertise while growing professionally 
+                    in an dynamic market.
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>&copy; 2026 Your Professional CV | Available for positions in China 🇨🇳</p>
+        </div>
+    </div>
+</body>
+</html>
